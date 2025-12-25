@@ -27,7 +27,7 @@ sentiment-analysis-textblob/
 │── Dockerfile
 │── README.md
 
-## Docker Installation
+Docker Installation
 
 Install Docker on Windows
 -Download Docker Desktop for Windows from the official Docker website.
@@ -48,11 +48,12 @@ How It Works:
 
   Neutral
 
-## Sample Output
+Sample Output
 
 Text: I love this product! It's amazing.
 Polarity: 0.8
 Sentiment: Positive
+
 
 Installation and Execution:
 Run the Application using Docker
