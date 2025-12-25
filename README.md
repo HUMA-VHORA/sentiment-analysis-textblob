@@ -27,39 +27,10 @@ sentiment-analysis-textblob/
 │── Dockerfile
 │── README.md
 
-Docker Installation
-
-Install Docker on Windows
--Download Docker Desktop for Windows from the official Docker website.
--Install Docker Desktop and enable WSL 2 integration during setup.
--Restart the system if required.
--Verify installation:
-docker --version
-
-How It Works:
-
--The user provides a text input.
--TextBlob analyzes the text and calculates a polarity score.
--Based on the polarity value, the sentiment is classified as:
-
-  Positive
-
-  Negative
-
-  Neutral
-
-Sample Output
-
+Sample Output:
 Text: I love this product! It's amazing.
 Polarity: 0.8
 Sentiment: Positive
-
-
-Installation and Execution:
-Run the Application using Docker
-
-docker build -t sentiment-analysis-textblob
-docker run -it sentiment-analysis-textblob
 
 Learning Outcomes:
 -Understanding sentiment polarity and subjectivity in NLP
